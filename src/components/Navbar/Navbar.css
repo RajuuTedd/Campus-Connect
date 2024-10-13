@@ -1,0 +1,63 @@
+/* src/components/Navbar/Navbar.css */
+nav {
+  background-color: #3498db;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Left side: Home and Dashboard links */
+.navbar-left {
+  display: flex;
+  gap: 20px; /* Space between Home and Dashboard */
+}
+
+.navbar-left a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navbar-left a:hover {
+  color: #ecf0f1;
+}
+
+/* Center: Search bar */
+.navbar-center {
+  flex-grow: 1; /* Takes up remaining space */
+  display: flex;
+  justify-content: center; /* Center the search bar */
+}
+
+.search-bar {
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Right side: Bell and User icons */
+.navbar-right {
+  display: flex;
+  gap: 15px; /* Space between the icons */
+}
+
+.navbar-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar-btn:hover {
+  color: #ecf0f1;
+}

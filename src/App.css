@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  color: #2980b9;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+/* Global dark mode styling */
+body {
+  background-color: #1a1a1b;
+  color: #d7dadc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #272729;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #d7dadc;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Button Styling */
+button {
+  background-color: #0079d3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #005999;
+}
+
+/* Post & Dashboard Styling */
+.post-container,
+.dashboard-container {
+  background-color: #1a1a1b;
+  color: #d7dadc;
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  color: #d7dadc;
+}
+
+/* Upvote Downvote Styling */
+.upvote,
+.downvote {
+  color: #d7dadc;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.upvote:hover,
+.downvote:hover {
+  color: #ff4500;
+}
+
+/* Dark mode specific link styling */
+a {
+  color: #0079d3;
+}
+
+a:hover {
+  color: #005999;
+}

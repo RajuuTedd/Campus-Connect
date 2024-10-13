@@ -1,0 +1,71 @@
+/* General container for the dashboard layout */
+.dashboard-layout {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+/* Main section where the posts are shown */
+.main-section {
+  flex: 2;
+  width: 75%;
+  padding-right: 20px;
+}
+
+/* Sidebar for recent posts */
+.recent-posts-section {
+  flex: 1;
+  width: 30%;
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Styling for each recent post item */
+.recent-post-item {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.recent-post-item h3 {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #34495e;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.recent-post-item p {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.recent-post-item a {
+  font-size: 14px;
+  color: #3498db;
+}
+
+.recent-post-item a:hover {
+  color: #2980b9;
+}
+
+/* Post title font size and background color */
+.post h3 {
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 4px;
+}
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0;
+}
